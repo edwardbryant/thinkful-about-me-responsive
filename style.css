@@ -72,3 +72,19 @@ footer a:link, footer a:active, footer a:visited {
   color: orange;
   text-decoration: none;
   }
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+      font-size: 3em;
+      letter-spacing: 0.1em;
+      }
+    header {
+      padding: 2.8em 0;
+      }
+}
+
+@media only screen and (max-width: 660px) {
+    section h1 {
+      text-align: center;
+      }  
+}
